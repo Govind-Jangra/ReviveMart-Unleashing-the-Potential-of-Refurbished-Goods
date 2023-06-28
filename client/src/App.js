@@ -9,8 +9,6 @@ import ProductInfo from "./pages/ProductInfo";
 import Profile from "./pages/Profile";
 import Register from "./pages/Register";
 import Footer  from "./components/Footer/Footer.js";
-
-
 function App() {
   const { loading } = useSelector((state) => state.loaders);
   return (
